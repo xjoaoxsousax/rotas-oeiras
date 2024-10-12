@@ -1,0 +1,2007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="https://gpx.studio" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>1105 Carnaxide (Escola Secundária) - Queluz Baixo (Centro Comercial)</name>
+    <author>
+      <name>gpx.studio</name>
+      <link href="https://gpx.studio"/>
+    </author>
+  </metadata>
+  <wpt lat="38.6987901" lon="-9.2276093">
+    <ele>9.471580167051325</ele>
+    <name>Algés (Estação)</name>
+    <cmt>bench: yes
+bin: no
+bus: yes
+highway: bus_stop
+name: Algés (Estação)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120339
+shelter: yes</cmt>
+    <desc>bench: yes
+bin: no
+bus: yes
+highway: bus_stop
+name: Algés (Estação)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120339
+shelter: yes</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7012759" lon="-9.2269558">
+    <ele>6.725434330105971</ele>
+    <name>Algés (Mercado)</name>
+    <cmt>bus: yes
+name: Algés (Mercado)
+network: Carris
+operator: Carris
+public_transport: stop_position</cmt>
+    <desc>bus: yes
+name: Algés (Mercado)
+network: Carris
+operator: Carris
+public_transport: stop_position</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7032338" lon="-9.2271664">
+    <ele>26.207202967914046</ele>
+    <name>Rua Latino Coelho</name>
+    <cmt>bus: yes
+name: Rua Latino Coelho
+network: Carris
+operator: Carris
+public_transport: stop_position</cmt>
+    <desc>bus: yes
+name: Rua Latino Coelho
+network: Carris
+operator: Carris
+public_transport: stop_position</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7052563" lon="-9.226753">
+    <ele>32.02184901347567</ele>
+    <name>Avenida dos Bombeiros Voluntários de Algés (Cinema)</name>
+    <cmt>alt_name: Av Bomb Voluntários Algés (Cinema)
+bench: yes
+bin: yes
+bus: yes
+highway: bus_stop
+name: Avenida dos Bombeiros Voluntários de Algés (Cinema)
+name:TML: Av Bomb Voluntários Algés (Cinema)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+network:wikipedia: pt:Companhia Carris de Ferro de Lisboa
+operator:wikipedia: pt:Companhia Carris de Ferro de Lisboa
+public_transport: platform
+ref:TML: 120188
+shelter: yes</cmt>
+    <desc>alt_name: Av Bomb Voluntários Algés (Cinema)
+bench: yes
+bin: yes
+bus: yes
+highway: bus_stop
+name: Avenida dos Bombeiros Voluntários de Algés (Cinema)
+name:TML: Av Bomb Voluntários Algés (Cinema)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+network:wikipedia: pt:Companhia Carris de Ferro de Lisboa
+operator:wikipedia: pt:Companhia Carris de Ferro de Lisboa
+public_transport: platform
+ref:TML: 120188
+shelter: yes</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7073491" lon="-9.2255861">
+    <ele>27.770067662700225</ele>
+    <name>Avenida dos Bombeiros Voluntários de Algés</name>
+    <cmt>alt_name: Av Bomb Voluntários Algés 74A
+bench: yes
+bin: yes
+bus: yes
+highway: bus_stop
+name: Avenida dos Bombeiros Voluntários de Algés
+name:TML: Av Bomb Voluntários Algés 74A
+network: Carris;Carris Metropolitana
+network:wikidata: Q1045108;Q111611112
+network:wikipedia: pt:Companhia Carris de Ferro de Lisboa
+operator: Carris
+operator:wikidata: Q1045108
+operator:wikipedia: pt:Companhia Carris de Ferro de Lisboa
+public_transport: platform
+ref:TML: 120186
+shelter: yes</cmt>
+    <desc>alt_name: Av Bomb Voluntários Algés 74A
+bench: yes
+bin: yes
+bus: yes
+highway: bus_stop
+name: Avenida dos Bombeiros Voluntários de Algés
+name:TML: Av Bomb Voluntários Algés 74A
+network: Carris;Carris Metropolitana
+network:wikidata: Q1045108;Q111611112
+network:wikipedia: pt:Companhia Carris de Ferro de Lisboa
+operator: Carris
+operator:wikidata: Q1045108
+operator:wikipedia: pt:Companhia Carris de Ferro de Lisboa
+public_transport: platform
+ref:TML: 120186
+shelter: yes</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7114632" lon="-9.2256611">
+    <ele>28.781783777904757</ele>
+    <name>Escola Secundaria de Miraflores</name>
+    <cmt>alt_name: Av Gen Norton Matos (PSP)
+bench: yes
+bin: yes
+bus: yes
+highway: bus_stop
+lit: yes
+name: Escola Secundaria de Miraflores
+name:TML: Av Gen Norton Matos (PSP)
+network: Carris;Carris Metropolitana
+network:wikidata: Q111611112
+operator: Carris
+public_transport: platform
+ref:TML: 120345
+shelter: yes
+tactile_paving: no</cmt>
+    <desc>alt_name: Av Gen Norton Matos (PSP)
+bench: yes
+bin: yes
+bus: yes
+highway: bus_stop
+lit: yes
+name: Escola Secundaria de Miraflores
+name:TML: Av Gen Norton Matos (PSP)
+network: Carris;Carris Metropolitana
+network:wikidata: Q111611112
+operator: Carris
+public_transport: platform
+ref:TML: 120345
+shelter: yes
+tactile_paving: no</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7132189" lon="-9.2250846">
+    <ele>33.008573633244076</ele>
+    <name>Miraflores</name>
+    <cmt>alt_name: Miraflores (Clínica)
+bench: yes
+bin: yes
+bus: yes
+highway: bus_stop
+name: Miraflores
+name:TML: Miraflores (Clínica)
+network: Carris;Carris Metropolitana
+network:wikidata: Q111611112
+operator: Carris
+public_transport: platform
+ref:TML: 120347
+shelter: yes</cmt>
+    <desc>alt_name: Miraflores (Clínica)
+bench: yes
+bin: yes
+bus: yes
+highway: bus_stop
+name: Miraflores
+name:TML: Miraflores (Clínica)
+network: Carris;Carris Metropolitana
+network:wikidata: Q111611112
+operator: Carris
+public_transport: platform
+ref:TML: 120347
+shelter: yes</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7144193" lon="-9.2269352">
+    <ele>43.73171316401845</ele>
+    <name>Miraflores Norte</name>
+    <cmt>alt_name: Al Fernão Lopes 16
+bench: yes
+bin: yes
+bus: yes
+highway: bus_stop
+mapillary: 1371001696605533
+name: Miraflores Norte
+name:TML: Al Fernão Lopes 16
+network: Carris;Carris Metropolitana
+network:wikidata: Q111611112
+operator: Carris
+public_transport: platform
+ref:TML: 120349
+shelter: yes
+survey:date: 2018-02-05</cmt>
+    <desc>alt_name: Al Fernão Lopes 16
+bench: yes
+bin: yes
+bus: yes
+highway: bus_stop
+mapillary: 1371001696605533
+name: Miraflores Norte
+name:TML: Al Fernão Lopes 16
+network: Carris;Carris Metropolitana
+network:wikidata: Q111611112
+operator: Carris
+public_transport: platform
+ref:TML: 120349
+shelter: yes
+survey:date: 2018-02-05</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7123782" lon="-9.2275908">
+    <ele>48.6934197764803</ele>
+    <name>Av Tulipas 24 (Piscina)</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: Av Tulipas 24 (Piscina)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120351</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: Av Tulipas 24 (Piscina)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120351</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7111785" lon="-9.2286764">
+    <ele>39.72064207887872</ele>
+    <name>Av Jaime Cortesão 6</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: Av Jaime Cortesão 6
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120182</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: Av Jaime Cortesão 6
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120182</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7121139" lon="-9.231135">
+    <ele>65.60743787059494</ele>
+    <name>Miraflores (Esc Preparatória)</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: Miraflores (Esc Preparatória)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120180</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: Miraflores (Esc Preparatória)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120180</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7122653" lon="-9.2336687">
+    <ele>80.78433694865183</ele>
+    <name>Av Carolina Michaellis (Esc Cond)</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: Av Carolina Michaellis (Esc Cond)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120353</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: Av Carolina Michaellis (Esc Cond)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120353</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7120667" lon="-9.2357655">
+    <ele>84.7122571387161</ele>
+    <name>Av Carolina Michaellis (Esc Secund)</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: Av Carolina Michaellis (Esc Secund)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120355</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: Av Carolina Michaellis (Esc Secund)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120355</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7128048" lon="-9.2371369">
+    <ele>86.53837503145976</ele>
+    <name>Av Carolina Michaellis 20B</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: Av Carolina Michaellis 20B
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120357
+shelter: yes</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: Av Carolina Michaellis 20B
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120357
+shelter: yes</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7142691" lon="-9.2373845">
+    <ele>91.39897607432317</ele>
+    <name>Av Carolina Michaellis 36</name>
+    <cmt>bench: yes
+bin: yes
+bus: yes
+highway: bus_stop
+name: Av Carolina Michaellis 36
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120176
+shelter: yes</cmt>
+    <desc>bench: yes
+bin: yes
+bus: yes
+highway: bus_stop
+name: Av Carolina Michaellis 36
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120176
+shelter: yes</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7168017" lon="-9.2373001">
+    <ele>87.29456359815703</ele>
+    <name>Al António Sérgio 82B</name>
+    <cmt>bench: yes
+bin: yes
+bus: yes
+highway: bus_stop
+lit: yes
+name: Al António Sérgio 82B
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120359
+shelter: yes
+tactile_paving: no</cmt>
+    <desc>bench: yes
+bin: yes
+bus: yes
+highway: bus_stop
+lit: yes
+name: Al António Sérgio 82B
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120359
+shelter: yes
+tactile_paving: no</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7199827" lon="-9.2347029">
+    <ele>99.17668076045885</ele>
+    <name>Av Forte (Proteção Civil)</name>
+    <cmt>bench: yes
+bin: yes
+bus: yes
+highway: bus_stop
+name: Av Forte (Proteção Civil)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120275
+shelter: yes</cmt>
+    <desc>bench: yes
+bin: yes
+bus: yes
+highway: bus_stop
+name: Av Forte (Proteção Civil)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120275
+shelter: yes</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7242532" lon="-9.234694">
+    <ele>110.62575943020686</ele>
+    <name>Av Forte (Posto Combust)</name>
+    <cmt>bench: yes
+bus: yes
+highway: bus_stop
+name: Av Forte (Posto Combust)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120033
+shelter: yes</cmt>
+    <desc>bench: yes
+bus: yes
+highway: bus_stop
+name: Av Forte (Posto Combust)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120033
+shelter: yes</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7256091" lon="-9.2344245">
+    <ele>112.3860185646925</ele>
+    <name>Av Prof Rein Santos (Edif S Paulo)</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: Av Prof Rein Santos (Edif S Paulo)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120035
+shelter: yes</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: Av Prof Rein Santos (Edif S Paulo)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120035
+shelter: yes</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.727377" lon="-9.2342176">
+    <ele>137.40311904538424</ele>
+    <name>Av Prof Reinaldo Santos (Hosp Sta Cruz)</name>
+    <cmt>bench: yes
+bus: yes
+highway: bus_stop
+name: Av Prof Reinaldo Santos (Hosp Sta Cruz)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120037
+shelter: yes</cmt>
+    <desc>bench: yes
+bus: yes
+highway: bus_stop
+name: Av Prof Reinaldo Santos (Hosp Sta Cruz)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120037
+shelter: yes</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7287478" lon="-9.2367939">
+    <ele>121.84626251860573</ele>
+    <name>R Manuel Teixeira Gomes (Bombeiros)</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: R Manuel Teixeira Gomes (Bombeiros)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120039
+shelter: yes</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: R Manuel Teixeira Gomes (Bombeiros)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120039
+shelter: yes</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7281939" lon="-9.2384841">
+    <ele>112.73333771854311</ele>
+    <name>R Manuel Teixeira Gomes 23A</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: R Manuel Teixeira Gomes 23A
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120473
+shelter: yes</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: R Manuel Teixeira Gomes 23A
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120473
+shelter: yes</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7276624" lon="-9.240078">
+    <ele>102.976448499862</ele>
+    <name>R Aquilino Ribeiro 7</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: R Aquilino Ribeiro 7
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120041
+shelter: yes</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: R Aquilino Ribeiro 7
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120041
+shelter: yes</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7285109" lon="-9.2416544">
+    <ele>97.92841643711888</ele>
+    <name>R Aquilino Ribeiro 20</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: R Aquilino Ribeiro 20
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120043
+shelter: yes</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: R Aquilino Ribeiro 20
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120043
+shelter: yes</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7288504" lon="-9.2448416">
+    <ele>88.16636105173504</ele>
+    <name>R Aquilino Ribeiro (Esc Preparatória)</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: R Aquilino Ribeiro (Esc Preparatória)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120045
+shelter: yes</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: R Aquilino Ribeiro (Esc Preparatória)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120045
+shelter: yes</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7267446" lon="-9.2445134">
+    <ele>78.42248240355445</ele>
+    <name>Carnaxide (Av Portugal)</name>
+    <cmt>bus: yes
+name: Carnaxide (Av Portugal)
+public_transport: stop_position</cmt>
+    <desc>bus: yes
+name: Carnaxide (Av Portugal)
+public_transport: stop_position</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7253871" lon="-9.246036">
+    <ele>66.5582844095317</ele>
+    <name>R 5 Outubro 13 (Lgo Pátria Nova)</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: R 5 Outubro 13 (Lgo Pátria Nova)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120279
+shelter: yes</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: R 5 Outubro 13 (Lgo Pátria Nova)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120279
+shelter: yes</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7250954" lon="-9.2491036">
+    <ele>79.27422563354584</ele>
+    <name>R 5 Outubro 2</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: R 5 Outubro 2
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120281
+shelter: yes</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: R 5 Outubro 2
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120281
+shelter: yes</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7252037" lon="-9.2532362">
+    <ele>65.53636162613567</ele>
+    <name>Estr Queluz (Qta Gandarela)</name>
+    <cmt>bench: yes
+bin: no
+bus: yes
+highway: bus_stop
+lit: yes
+name: Estr Queluz (Qta Gandarela)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120364
+shelter: yes
+tactile_paving: no</cmt>
+    <desc>bench: yes
+bin: no
+bus: yes
+highway: bus_stop
+lit: yes
+name: Estr Queluz (Qta Gandarela)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120364
+shelter: yes
+tactile_paving: no</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7308033" lon="-9.258445">
+    <ele>80.63716965035299</ele>
+    <name>Estr Queluz 95</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: Estr Queluz 95
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120365</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: Estr Queluz 95
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120365</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7333084" lon="-9.2596657">
+    <ele>76.70952850740278</ele>
+    <name>Estr Queluz (Viv Teixeira)</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: Estr Queluz (Viv Teixeira)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120367</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: Estr Queluz (Viv Teixeira)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120367</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7365193" lon="-9.2598136">
+    <ele>86.69641499615963</ele>
+    <name>Valejas (X) Estr Milit</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: Valejas (X) Estr Milit
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120369</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: Valejas (X) Estr Milit
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120369</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7376511" lon="-9.2636311">
+    <ele>71.73156809102032</ele>
+    <name>Estr Militar (Casal Martins)</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: Estr Militar (Casal Martins)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120371
+shelter: no</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: Estr Militar (Casal Martins)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120371
+shelter: no</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7349925" lon="-9.2647762">
+    <ele>92.8890320357874</ele>
+    <name>Estr Militar 1</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: Estr Militar 1
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120373
+shelter: yes</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: Estr Militar 1
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120373
+shelter: yes</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7356112" lon="-9.2673728">
+    <ele>109.46023685821551</ele>
+    <name>Valejas Cima</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: Valejas Cima
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120375
+shelter: no</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: Valejas Cima
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120375
+shelter: no</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7382204" lon="-9.2692667">
+    <ele>136.2524581530235</ele>
+    <name>R Trabalho (Fábricas)</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: R Trabalho (Fábricas)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120377</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: R Trabalho (Fábricas)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120377</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7403035" lon="-9.2683459">
+    <ele>122.17267240977594</ele>
+    <name>R Mário Castelhano 40</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: R Mário Castelhano 40
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120379</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: R Mário Castelhano 40
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120379</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7417413" lon="-9.2692702">
+    <ele>128.0378349826036</ele>
+    <name>R Mario Castelhano (Consiglieri Park)</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: R Mario Castelhano (Consiglieri Park)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120381</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: R Mario Castelhano (Consiglieri Park)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120381</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7427637" lon="-9.2679293">
+    <ele>114.26083697555678</ele>
+    <name>Estr Consiglieri Pedroso 69</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: Estr Consiglieri Pedroso 69
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120383
+shelter: yes</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: Estr Consiglieri Pedroso 69
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120383
+shelter: yes</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7446864" lon="-9.266123">
+    <ele>111.61415820105509</ele>
+    <name>Queluz Baixo (Centro Comercial)</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: Queluz Baixo (Centro Comercial)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120403</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: Queluz Baixo (Centro Comercial)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120403</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7240402" lon="-9.2432651">
+    <ele>68.9841461031473</ele>
+    <name>Av Tomás Ribeiro 47 (Cemitério)</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: Av Tomás Ribeiro 47 (Cemitério)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120050
+shelter: yes</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: Av Tomás Ribeiro 47 (Cemitério)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120050
+shelter: yes</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.72255" lon="-9.2430069">
+    <ele>71.31690272458479</ele>
+    <name>Av Tomás Ribeiro (Qta Acácias)</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: Av Tomás Ribeiro (Qta Acácias)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120095</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: Av Tomás Ribeiro (Qta Acácias)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120095</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="38.7226223" lon="-9.2448316">
+    <ele>68.08672925712949</ele>
+    <name>Carnaxide (Escola Secundária)</name>
+    <cmt>bus: yes
+highway: bus_stop
+name: Carnaxide (Escola Secundária)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120123</cmt>
+    <desc>bus: yes
+highway: bus_stop
+name: Carnaxide (Escola Secundária)
+network: Carris Metropolitana
+network:wikidata: Q111611112
+public_transport: platform
+ref: 120123</desc>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <trk>
+    <name>1105 Carnaxide (Escola Secundária) - Queluz Baixo (Centro Comercial)</name>
+    <trkseg>
+      <trkpt lat="38.722612" lon="-9.244771">
+        <ele>67</ele>
+      </trkpt>
+      <trkpt lat="38.722474" lon="-9.244687">
+        <ele>67.25</ele>
+      </trkpt>
+      <trkpt lat="38.722393" lon="-9.244617">
+        <ele>68</ele>
+      </trkpt>
+      <trkpt lat="38.722343" lon="-9.244556">
+        <ele>68.75</ele>
+      </trkpt>
+      <trkpt lat="38.722297" lon="-9.244487">
+        <ele>69.5</ele>
+      </trkpt>
+      <trkpt lat="38.722273" lon="-9.244406">
+        <ele>70.5</ele>
+      </trkpt>
+      <trkpt lat="38.722261" lon="-9.244312">
+        <ele>71.5</ele>
+      </trkpt>
+      <trkpt lat="38.722243" lon="-9.24404">
+        <ele>72.75</ele>
+      </trkpt>
+      <trkpt lat="38.722215" lon="-9.243607">
+        <ele>70.75</ele>
+      </trkpt>
+      <trkpt lat="38.722185" lon="-9.243144">
+        <ele>69.75</ele>
+      </trkpt>
+      <trkpt lat="38.722819" lon="-9.243069">
+        <ele>69.75</ele>
+      </trkpt>
+      <trkpt lat="38.723076" lon="-9.243038">
+        <ele>69.5</ele>
+      </trkpt>
+      <trkpt lat="38.723226" lon="-9.243034">
+        <ele>69.25</ele>
+      </trkpt>
+      <trkpt lat="38.723367" lon="-9.243051">
+        <ele>69</ele>
+      </trkpt>
+      <trkpt lat="38.723448" lon="-9.243072">
+        <ele>69</ele>
+      </trkpt>
+      <trkpt lat="38.72362" lon="-9.243145">
+        <ele>68.75</ele>
+      </trkpt>
+      <trkpt lat="38.72386" lon="-9.243287">
+        <ele>68.5</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.72407" lon="-9.24337">
+        <ele>68.5</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724123" lon="-9.243377">
+        <ele>68.5</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724257" lon="-9.243395">
+        <ele>69</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.72429" lon="-9.24336">
+        <ele>69.5</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724329" lon="-9.243339">
+        <ele>69.75</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724371" lon="-9.243333">
+        <ele>70</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724413" lon="-9.243342">
+        <ele>70.25</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724453" lon="-9.243368">
+        <ele>70.25</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724486" lon="-9.243408">
+        <ele>70.25</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724508" lon="-9.243459">
+        <ele>70</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724517" lon="-9.243525">
+        <ele>69.5</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724515" lon="-9.243558">
+        <ele>69.25</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724536" lon="-9.243646">
+        <ele>68.75</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724544" lon="-9.243705">
+        <ele>68.5</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724583" lon="-9.243916">
+        <ele>67.25</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724647" lon="-9.244062">
+        <ele>66.5</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724807" lon="-9.244333">
+        <ele>65.75</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724853" lon="-9.244409">
+        <ele>65.75</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724875" lon="-9.24449">
+        <ele>65.25</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724874" lon="-9.244582">
+        <ele>64.75</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724861" lon="-9.244813">
+        <ele>63.5</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724864" lon="-9.244993">
+        <ele>62.5</ele>
+      </trkpt>
+      <trkpt lat="38.724903" lon="-9.245198">
+        <ele>61.75</ele>
+      </trkpt>
+      <trkpt lat="38.72492" lon="-9.245242">
+        <ele>61.75</ele>
+      </trkpt>
+      <trkpt lat="38.724953" lon="-9.245324">
+        <ele>61.75</ele>
+      </trkpt>
+      <trkpt lat="38.725158" lon="-9.245716">
+        <ele>62.75</ele>
+      </trkpt>
+      <trkpt lat="38.725281" lon="-9.245937">
+        <ele>64.25</ele>
+      </trkpt>
+      <trkpt lat="38.725376" lon="-9.246116">
+        <ele>65.75</ele>
+      </trkpt>
+      <trkpt lat="38.725388" lon="-9.246175">
+        <ele>66</ele>
+      </trkpt>
+      <trkpt lat="38.725388" lon="-9.246175">
+        <ele>66</ele>
+      </trkpt>
+      <trkpt lat="38.725378" lon="-9.246387">
+        <ele>66.5</ele>
+      </trkpt>
+      <trkpt lat="38.725345" lon="-9.246591">
+        <ele>66.75</ele>
+      </trkpt>
+      <trkpt lat="38.725269" lon="-9.246949">
+        <ele>67</ele>
+      </trkpt>
+      <trkpt lat="38.72526" lon="-9.247032">
+        <ele>67.25</ele>
+      </trkpt>
+      <trkpt lat="38.725261" lon="-9.247288">
+        <ele>68.5</ele>
+      </trkpt>
+      <trkpt lat="38.725288" lon="-9.24741">
+        <ele>69.5</ele>
+      </trkpt>
+      <trkpt lat="38.725398" lon="-9.247665">
+        <ele>72.75</ele>
+      </trkpt>
+      <trkpt lat="38.725406" lon="-9.247799">
+        <ele>73.75</ele>
+      </trkpt>
+      <trkpt lat="38.725387" lon="-9.248089">
+        <ele>75.5</ele>
+      </trkpt>
+      <trkpt lat="38.725339" lon="-9.248243">
+        <ele>76</ele>
+      </trkpt>
+      <trkpt lat="38.725175" lon="-9.24865">
+        <ele>77</ele>
+      </trkpt>
+      <trkpt lat="38.72511" lon="-9.248846">
+        <ele>77.75</ele>
+      </trkpt>
+      <trkpt lat="38.725087" lon="-9.248961">
+        <ele>78.25</ele>
+      </trkpt>
+      <trkpt lat="38.725061" lon="-9.249096">
+        <ele>77.75</ele>
+      </trkpt>
+      <trkpt lat="38.725014" lon="-9.249343">
+        <ele>77.25</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724988" lon="-9.249658">
+        <ele>74</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724984" lon="-9.249863">
+        <ele>72</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724969" lon="-9.25001">
+        <ele>70.5</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724939" lon="-9.25044">
+        <ele>68.25</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724945" lon="-9.250726">
+        <ele>66.75</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.724979" lon="-9.251076">
+        <ele>66.5</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.725108" lon="-9.252219">
+        <ele>66.75</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.725141" lon="-9.252692">
+        <ele>65.75</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.725138" lon="-9.253129">
+        <ele>64.25</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.725137" lon="-9.253184">
+        <ele>64.25</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.725142" lon="-9.253268">
+        <ele>64</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.725155" lon="-9.253476">
+        <ele>63.75</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.725165" lon="-9.253637">
+        <ele>63.75</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.725243" lon="-9.253975">
+        <ele>65</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.725668" lon="-9.25508">
+        <ele>66.5</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.72613" lon="-9.256085">
+        <ele>65.75</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.726237" lon="-9.256291">
+        <ele>64.75</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.726353" lon="-9.256424">
+        <ele>64.5</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.726515" lon="-9.256504">
+        <ele>65.5</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.726901" lon="-9.256508">
+        <ele>68</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.728363" lon="-9.256453">
+        <ele>75.75</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.728508" lon="-9.256464">
+        <ele>76.5</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.728654" lon="-9.256514">
+        <ele>77</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.728812" lon="-9.256625">
+        <ele>76.75</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.730106" lon="-9.25787">
+        <ele>78.5</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.730187" lon="-9.257949">
+        <ele>79.25</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.730662" lon="-9.258408">
+        <ele>79.25</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.73077" lon="-9.258502">
+        <ele>79</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.730775" lon="-9.258507">
+        <ele>78.75</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.731221" lon="-9.258888">
+        <ele>78</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.732399" lon="-9.259628">
+        <ele>71.25</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.732537" lon="-9.259684">
+        <ele>71</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.732692" lon="-9.259726">
+        <ele>70.75</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.733189" lon="-9.259702">
+        <ele>74</ele>
+      </trkpt>
+      <trkpt lat="38.733308" lon="-9.259718">
+        <ele>74</ele>
+      </trkpt>
+      <trkpt lat="38.733324" lon="-9.25972">
+        <ele>74.25</ele>
+      </trkpt>
+      <trkpt lat="38.733698" lon="-9.259809">
+        <ele>73</ele>
+      </trkpt>
+      <trkpt lat="38.733874" lon="-9.259812">
+        <ele>73.75</ele>
+      </trkpt>
+      <trkpt lat="38.733981" lon="-9.259792">
+        <ele>74.75</ele>
+      </trkpt>
+      <trkpt lat="38.73409" lon="-9.259762">
+        <ele>76.25</ele>
+      </trkpt>
+      <trkpt lat="38.734427" lon="-9.259651">
+        <ele>78.75</ele>
+      </trkpt>
+      <trkpt lat="38.734526" lon="-9.25962">
+        <ele>79</ele>
+      </trkpt>
+      <trkpt lat="38.734695" lon="-9.25958">
+        <ele>78.75</ele>
+      </trkpt>
+      <trkpt lat="38.73513" lon="-9.259387">
+        <ele>79.75</ele>
+      </trkpt>
+      <trkpt lat="38.735549" lon="-9.259312">
+        <ele>83.25</ele>
+      </trkpt>
+      <trkpt lat="38.735758" lon="-9.259312">
+        <ele>84.5</ele>
+      </trkpt>
+      <trkpt lat="38.736491" lon="-9.259863">
+        <ele>86.25</ele>
+      </trkpt>
+      <trkpt lat="38.736651" lon="-9.259982">
+        <ele>86.75</ele>
+      </trkpt>
+      <trkpt lat="38.736743" lon="-9.260056">
+        <ele>87</ele>
+      </trkpt>
+      <trkpt lat="38.736748" lon="-9.260121">
+        <ele>86</ele>
+      </trkpt>
+      <trkpt lat="38.736765" lon="-9.26016">
+        <ele>85.5</ele>
+      </trkpt>
+      <trkpt lat="38.736799" lon="-9.260208">
+        <ele>85.25</ele>
+      </trkpt>
+      <trkpt lat="38.737106" lon="-9.260571">
+        <ele>83.5</ele>
+      </trkpt>
+      <trkpt lat="38.737428" lon="-9.260863">
+        <ele>83.25</ele>
+      </trkpt>
+      <trkpt lat="38.737903" lon="-9.261318">
+        <ele>79.25</ele>
+      </trkpt>
+      <trkpt lat="38.738238" lon="-9.261661">
+        <ele>77.25</ele>
+      </trkpt>
+      <trkpt lat="38.738352" lon="-9.261793">
+        <ele>77.75</ele>
+      </trkpt>
+      <trkpt lat="38.738415" lon="-9.261977">
+        <ele>77</ele>
+      </trkpt>
+      <trkpt lat="38.738473" lon="-9.26254">
+        <ele>72.75</ele>
+      </trkpt>
+      <trkpt lat="38.738473" lon="-9.262734">
+        <ele>72.5</ele>
+      </trkpt>
+      <trkpt lat="38.73843" lon="-9.262898">
+        <ele>71.25</ele>
+      </trkpt>
+      <trkpt lat="38.738354" lon="-9.263033">
+        <ele>69.5</ele>
+      </trkpt>
+      <trkpt lat="38.738238" lon="-9.263139">
+        <ele>68.75</ele>
+      </trkpt>
+      <trkpt lat="38.738" lon="-9.263356">
+        <ele>68.5</ele>
+      </trkpt>
+      <trkpt lat="38.737826" lon="-9.26352">
+        <ele>70</ele>
+      </trkpt>
+      <trkpt lat="38.737748" lon="-9.263565">
+        <ele>70.5</ele>
+      </trkpt>
+      <trkpt lat="38.737662" lon="-9.263577">
+        <ele>71</ele>
+      </trkpt>
+      <trkpt lat="38.737645" lon="-9.263573">
+        <ele>71</ele>
+      </trkpt>
+      <trkpt lat="38.737576" lon="-9.263555">
+        <ele>71</ele>
+      </trkpt>
+      <trkpt lat="38.737279" lon="-9.263339">
+        <ele>70.25</ele>
+      </trkpt>
+      <trkpt lat="38.737201" lon="-9.263309">
+        <ele>70.75</ele>
+      </trkpt>
+      <trkpt lat="38.736685" lon="-9.263217">
+        <ele>73.75</ele>
+      </trkpt>
+      <trkpt lat="38.735286" lon="-9.263278">
+        <ele>81.75</ele>
+      </trkpt>
+      <trkpt lat="38.735172" lon="-9.263302">
+        <ele>81.75</ele>
+      </trkpt>
+      <trkpt lat="38.735114" lon="-9.263346">
+        <ele>82.75</ele>
+      </trkpt>
+      <trkpt lat="38.73507" lon="-9.26342">
+        <ele>83.75</ele>
+      </trkpt>
+      <trkpt lat="38.735012" lon="-9.263596">
+        <ele>86.25</ele>
+      </trkpt>
+      <trkpt lat="38.734906" lon="-9.264031">
+        <ele>91.5</ele>
+      </trkpt>
+      <trkpt lat="38.734901" lon="-9.264183">
+        <ele>93.5</ele>
+      </trkpt>
+      <trkpt lat="38.73493" lon="-9.264663">
+        <ele>94</ele>
+      </trkpt>
+      <trkpt lat="38.734928" lon="-9.26478">
+        <ele>93.75</ele>
+      </trkpt>
+      <trkpt lat="38.734928" lon="-9.26485">
+        <ele>93.75</ele>
+      </trkpt>
+      <trkpt lat="38.734919" lon="-9.264966">
+        <ele>93.75</ele>
+      </trkpt>
+      <trkpt lat="38.734907" lon="-9.265081">
+        <ele>94</ele>
+      </trkpt>
+      <trkpt lat="38.734856" lon="-9.265411">
+        <ele>95.25</ele>
+      </trkpt>
+      <trkpt lat="38.734852" lon="-9.265562">
+        <ele>96.25</ele>
+      </trkpt>
+      <trkpt lat="38.734873" lon="-9.265681">
+        <ele>97.25</ele>
+      </trkpt>
+      <trkpt lat="38.734911" lon="-9.265825">
+        <ele>98.75</ele>
+      </trkpt>
+      <trkpt lat="38.735002" lon="-9.266089">
+        <ele>100</ele>
+      </trkpt>
+      <trkpt lat="38.735209" lon="-9.26669">
+        <ele>102.25</ele>
+      </trkpt>
+      <trkpt lat="38.735372" lon="-9.267166">
+        <ele>107.25</ele>
+      </trkpt>
+      <trkpt lat="38.735426" lon="-9.267279">
+        <ele>108.5</ele>
+      </trkpt>
+      <trkpt lat="38.735561" lon="-9.267435">
+        <ele>110.75</ele>
+      </trkpt>
+      <trkpt lat="38.735618" lon="-9.267499">
+        <ele>111.75</ele>
+      </trkpt>
+      <trkpt lat="38.73571" lon="-9.267604">
+        <ele>113.5</ele>
+      </trkpt>
+      <trkpt lat="38.735733" lon="-9.267635">
+        <ele>113.75</ele>
+      </trkpt>
+      <trkpt lat="38.735801" lon="-9.267722">
+        <ele>115.25</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.735845" lon="-9.267763">
+        <ele>116</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.735931" lon="-9.267817">
+        <ele>117.25</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.736032" lon="-9.267839">
+        <ele>118.75</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.736511" lon="-9.267848">
+        <ele>124.5</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.736646" lon="-9.26786">
+        <ele>126.25</ele>
+      </trkpt>
+      <trkpt lat="38.736714" lon="-9.267979">
+        <ele>127.5</ele>
+      </trkpt>
+      <trkpt lat="38.736822" lon="-9.268198">
+        <ele>129.5</ele>
+      </trkpt>
+      <trkpt lat="38.737098" lon="-9.268852">
+        <ele>132.25</ele>
+      </trkpt>
+      <trkpt lat="38.737147" lon="-9.268922">
+        <ele>132.75</ele>
+      </trkpt>
+      <trkpt lat="38.737225" lon="-9.269012">
+        <ele>133.25</ele>
+      </trkpt>
+      <trkpt lat="38.737373" lon="-9.269142">
+        <ele>134.25</ele>
+      </trkpt>
+      <trkpt lat="38.738123" lon="-9.269665">
+        <ele>136.25</ele>
+      </trkpt>
+      <trkpt lat="38.738248" lon="-9.269282">
+        <ele>135.75</ele>
+      </trkpt>
+      <trkpt lat="38.738839" lon="-9.267478">
+        <ele>134.75</ele>
+      </trkpt>
+      <trkpt lat="38.73992" lon="-9.268165">
+        <ele>126.75</ele>
+      </trkpt>
+      <trkpt lat="38.740283" lon="-9.268396">
+        <ele>125.25</ele>
+      </trkpt>
+      <trkpt lat="38.740462" lon="-9.268509">
+        <ele>124.75</ele>
+      </trkpt>
+      <trkpt lat="38.740886" lon="-9.268778">
+        <ele>125</ele>
+      </trkpt>
+      <trkpt lat="38.741708" lon="-9.269326">
+        <ele>125.5</ele>
+      </trkpt>
+      <trkpt lat="38.741758" lon="-9.269359">
+        <ele>125.75</ele>
+      </trkpt>
+      <trkpt lat="38.741824" lon="-9.269403">
+        <ele>125.25</ele>
+      </trkpt>
+      <trkpt lat="38.742107" lon="-9.268772">
+        <ele>121.75</ele>
+      </trkpt>
+      <trkpt lat="38.742155" lon="-9.268702">
+        <ele>121</ele>
+      </trkpt>
+      <trkpt lat="38.742288" lon="-9.268551">
+        <ele>119</ele>
+      </trkpt>
+      <trkpt lat="38.742444" lon="-9.268383">
+        <ele>116.75</ele>
+      </trkpt>
+      <trkpt lat="38.742798" lon="-9.268012">
+        <ele>116.5</ele>
+      </trkpt>
+      <trkpt lat="38.742797" lon="-9.268013">
+        <ele>116.5</ele>
+      </trkpt>
+      <trkpt lat="38.742871" lon="-9.267935">
+        <ele>116.5</ele>
+      </trkpt>
+      <trkpt lat="38.74329" lon="-9.26753">
+        <ele>116</ele>
+      </trkpt>
+      <trkpt lat="38.743644" lon="-9.267312">
+        <ele>116</ele>
+      </trkpt>
+      <trkpt lat="38.744022" lon="-9.267061">
+        <ele>115.75</ele>
+      </trkpt>
+      <trkpt lat="38.743862" lon="-9.266679">
+        <ele>115.25</ele>
+      </trkpt>
+      <trkpt lat="38.743768" lon="-9.266451">
+        <ele>115</ele>
+      </trkpt>
+      <trkpt lat="38.743728" lon="-9.266354">
+        <ele>115</ele>
+      </trkpt>
+      <trkpt lat="38.743797" lon="-9.266311">
+        <ele>114.75</ele>
+      </trkpt>
+      <trkpt lat="38.743967" lon="-9.266202">
+        <ele>113.5</ele>
+      </trkpt>
+      <trkpt lat="38.744247" lon="-9.266011">
+        <ele>110.75</ele>
+      </trkpt>
+      <trkpt lat="38.744386" lon="-9.265918">
+        <ele>110</ele>
+      </trkpt>
+      <trkpt lat="38.744479" lon="-9.265857">
+        <ele>109.5</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.744509" lon="-9.265933">
+        <ele>110</ele>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <surface>asphalt</surface>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.744596" lon="-9.266151">
+        <ele>110.75</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
