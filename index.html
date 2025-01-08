@@ -21,18 +21,22 @@
 
     function loadRoute() {
       const routeNumber = document.getElementById('routeNumber').value;
-      fetch(`/routes/${routeNumber}.json`)
+      const routePath = `/rotas/${routeNumber}/route.json`; // Caminho ajustado
+
+      // Busca o arquivo JSON que descreve o percurso da rota
+      fetch(routePath)
         .then(response => response.json())
         .then(data => {
-          const route = data.route; // Aqui você precisa ajustar de acordo com a estrutura do seu arquivo JSON
-          const routeCoords = route.map(point => [point.lat, point.lng]); // Ajuste conforme a estrutura das coordenadas
+          const routeCoords = data.route.map(point => [point.lat, point.lng]); // Estrutura de coordenadas
 
+          // Desenha a linha da rota no mapa
           L.polyline(routeCoords, { color: 'blue' }).addTo(map);
 
-          // Exibir botões de download para as variações
+          // Exibe os botões de download para as variações
           const downloadButtons = document.getElementById('downloadButtons');
-          downloadButtons.innerHTML = ''; // Limpa os botões antigos
-          route.variations.forEach(variation => {
+          downloadButtons.innerHTML = ''; // Limpa os botões anteriores
+          
+          data.variations.forEach(variation => {
             const button = document.createElement('button');
             button.textContent = `Baixar ${variation.name}`;
             button.onclick = () => downloadGPX(variation.gpxFile);
@@ -46,7 +50,7 @@
 
     function downloadGPX(gpxFile) {
       const link = document.createElement('a');
-      link.href = `/routes/gpx/${gpxFile}`; // Caminho para o arquivo GPX
+      link.href = `/rotas/gpx/${gpxFile}`; // Caminho do arquivo GPX no repositório
       link.download = gpxFile;
       link.click();
     }
