@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/leaflet-gpx@1.6.0/dist/leaflet-gpx.min.js"></script> <!-- Biblioteca para GPX -->
 </head>
 <body>
   <h1>Buscar Rota</h1>
@@ -20,41 +21,26 @@
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
     function loadRoute() {
-      const routeNumber = document.getElementById('routeNumber').value;
-      const routePath = `rotas/${routeNumber}.json`; // Agora ele busca o arquivo JSON dentro de "rotas"
+      const routeNumber = document.getElementById('routeNumber').value.trim();
+      const routePath = `rotas/${routeNumber}*.gpx`; // Busca qualquer arquivo que comece com o número da rota
 
-      // Busca o arquivo JSON que descreve o percurso da rota
+      // Carrega o arquivo GPX e exibe no mapa
       fetch(routePath)
-        .then(response => response.json())
-        .then(data => {
-          const routeCoords = data.route.map(point => [point.lat, point.lng]); // Estrutura de coordenadas
-
-          // Desenha a linha da rota no mapa
-          L.polyline(routeCoords, { color: 'blue' }).addTo(map);
-
-          // Exibe os botões de download para as variações
-          const downloadButtons = document.getElementById('downloadButtons');
-          downloadButtons.innerHTML = ''; // Limpa os botões anteriores
-          
-          // Para cada variação de rota, cria um botão para download
-          data.variations.forEach(variation => {
-            const button = document.createElement('button');
-            button.textContent = `Baixar ${variation.name}`;
-            button.onclick = () => downloadGPX(variation.gpxFile);
-            downloadButtons.appendChild(button);
-          });
+        .then(response => response.ok ? response.blob() : Promise.reject('Arquivo não encontrado'))
+        .then(gpxBlob => {
+          new L.GPX(URL.createObjectURL(gpxBlob), {
+            async: true,
+            marker_options: {
+              startIconUrl: 'https://raw.githubusercontent.com/Leaflet/Leaflet.markercluster/master/dist/images/marker-icon-2x.png',
+              endIconUrl: 'https://raw.githubusercontent.com/Leaflet/Leaflet.markercluster/master/dist/images/marker-icon-2x.png',
+            }
+          }).on('loaded', function(e) {
+            map.fitBounds(e.target.getBounds()); // Ajusta o mapa para cobrir toda a rota
+          }).addTo(map);
         })
         .catch(error => {
-          alert('Erro ao carregar a rota. Verifique se o número da rota está correto.');
           console.error('Erro ao carregar a rota:', error);
         });
-    }
-
-    function downloadGPX(gpxFile) {
-      const link = document.createElement('a');
-      link.href = `rotas/${gpxFile}`; // Caminho para o arquivo GPX dentro da pasta "rotas"
-      link.download = gpxFile;
-      link.click();
     }
   </script>
 </body>
