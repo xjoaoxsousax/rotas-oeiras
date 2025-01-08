@@ -21,7 +21,7 @@
 
     function loadRoute() {
       const routeNumber = document.getElementById('routeNumber').value;
-      const routePath = `/rotas/${routeNumber}/route.json`; // Caminho ajustado
+      const routePath = `rotas/${routeNumber}.json`; // Agora ele busca o arquivo JSON dentro de "rotas"
 
       // Busca o arquivo JSON que descreve o percurso da rota
       fetch(routePath)
@@ -36,6 +36,7 @@
           const downloadButtons = document.getElementById('downloadButtons');
           downloadButtons.innerHTML = ''; // Limpa os botões anteriores
           
+          // Para cada variação de rota, cria um botão para download
           data.variations.forEach(variation => {
             const button = document.createElement('button');
             button.textContent = `Baixar ${variation.name}`;
@@ -50,7 +51,7 @@
 
     function downloadGPX(gpxFile) {
       const link = document.createElement('a');
-      link.href = `/rotas/gpx/${gpxFile}`; // Caminho do arquivo GPX no repositório
+      link.href = `rotas/${gpxFile}`; // Caminho para o arquivo GPX dentro da pasta "rotas"
       link.download = gpxFile;
       link.click();
     }
