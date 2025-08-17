@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Agenda Manicure</title>
+<style>
+:root{
+  --accent:#d63384; --bg:#fffafc; --card:#fff; --muted:#6b7280; --ok:#16a34a;
+  --max-width:980px;
+}
+*{box-sizing:border-box}
+body{font-family:Inter, system-ui, Arial; margin:16px; background:var(--bg); color:#0f172a; display:flex; justify-content:center}
+.app{width:100%; max-width:var(--max-width);}    
+header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+h1{margin:0;font-size:1.2rem;color:var(--accent)}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{background:var(--accent); color:#fff; padding:8px 12px;border-radius:10px;border:none;font-weight:700;cursor:pointer}
+.btn.secondary{background:#fff;border:1px solid #e6e6e6;color:#111}
+.btn.danger{background:#dc2626;color:#fff}
+.calendar{display:grid;grid-template-columns:1fr 360px;gap:14px}
+@media(max-width:880px){.calendar{grid-template-columns:1fr;}}
+.month-card{background:var(--card);padding:14px;border-radius:12px;box-shadow:0 6px 20px rgba(2,6,23,0.06)}
+.month-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+.month-title{font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.dow{font-size:12px;text-align:center;color:var(--muted)}
+.day{min-height:94px; background:linear-gradient(180deg,#ffffff, #fbfbfc); border-radius:8px; padding:8px; position:relative; cursor:pointer; border:1px solid transparent}
+.day.other{opacity:.45}
+.day.today{box-shadow:0 4px 18px rgba(214,51,132,0.12); border:1px dashed var(--accent)}
+.day .num{font-weight:700; font-size:13px}
+.badges{position:absolute; left:8px; right:8px; bottom:8px; display:flex; gap:6px; flex-wrap:wrap}
+.badge{background:#ffeef6;color:var(--accent); font-size:11px;padding:3px 6px;border-radius:999px; cursor:pointer}
+.badge.attended{background:#d1fae5;color:#065f46; text-decoration:line-through;}
+.panel{background:var(--card);padding:14px;border-radius:12px; box-shadow:0 6px 20px rgba(2,6,23,0.06)}
+.panel h3{margin:0 0 8px 0}
+.slot{display:flex;align-items:center;justify-content:space-between;padding:8px;border-radius:8px;border:1px solid #f1f1f2;margin-top:8px}
+.slot small{color:var(--muted)}
+.slot .actions button{background:transparent;border:none;color:var(--accent);cursor:pointer;font-weight:700;margin-left:8px}
+.slot .actions .delete{color:#dc2626}
+.modal-back{position:fixed;left:0;top:0;right:0;bottom:0;background:rgba(2,6,23,0.45);display:none;align-items:center;justify-content:center;padding:18px}
+.modal{width:100%;max-width:480px;background:var(--card);padding:16px;border-radius:12px}
+.row{display:flex;gap:8px}
+label{font-size:13px;color:var(--muted);margin-top:8px;display:block}
+input,select,textarea{width:100%;padding:10px;border-radius:8px;border:1px solid #e6e6e9;margin-top:6px}
+textarea{min-height:90px}
+footer{margin-top:12px;display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}
+.muted{color:var(--muted);font-size:13px}
+.empty{opacity:.6;padding:6px;border-radius:8px;border:1px dashed #eee;margin-top:8px}
+.search{padding:8px;border-radius:10px;border:1px solid #eee;width:260px}
+.error-box{position:fixed;left:12px;right:12px;bottom:12px;padding:12px;background:#ffe6e6;border:1px solid #ffb3b3;border-radius:8px;color:#7b0d0d}
+</style>
+</head>
+<body>
+<div class="app">
+<header>
+<h1>Agenda Manicure</h1>
+<div class="controls">
+<input class="search" id="search" placeholder="Pesquisar cliente, serviço...">
+<button class="btn" id="todayBtn">Hoje</button>
+</div>
+</header>
+<div class="calendar">
+<div class="month-card">
+<div class="month-head">
+<div style="display:flex;gap:8px;align-items:center">
+<button class="btn secondary" id="prev">◀</button>
+<div class="month-title" id="monthTitle">—</div>
+<button class="btn secondary" id="next">▶</button>
+</div>
+</div>
+<div class="grid" id="dowLabels"></div>
+<div class="grid" id="daysGrid" style="margin-top:8px"></div>
+</div>
+<aside class="panel">
+<h3 id="panelTitle">Selecione um dia</h3>
+<div class="muted" id="panelDate"></div>
+<div id="appointmentsList" style="margin-top:10px"></div>
+<div style="margin-top:12px">
+<button class="btn" id="addBtn">+ Novo Agendamento</button>
+</div>
+</aside>
+</div>
+<div class="modal-back" id="modalBack">
+<div class="modal">
+<h3 id="modalTitle">Novo agendamento</h3>
+<label>Data</label><input type="date" id="fldDate">
+<label>Hora</label><input type="time" id="fldTime">
+<label>Nome da cliente</label><input id="fldName" placeholder="Ex: Maria">
+<label>Serviço</label><select id="fldService"><option>Unhas simples</option><option>Gel</option><option>Acrílico</option><option>Pedicure</option><option>Outro</option></select>
+<label>Preço (R$)</label><input type="number" id="fldPrice" placeholder="Ex: 50" min="0" step="0.01">
+<label>Observações</label><textarea id="fldObs" placeholder="Ex: cor preferida, tempo estimado"></textarea>
+<footer>
+<button class="btn secondary" id="cancelBtn">Cancelar</button>
+<button class="btn danger" id="deleteBtn" style="display:none">Apagar</button>
+<button class="btn secondary" id="attendedBtn">Marcar como atendido</button>
+<button class="btn" id="saveBtn">Salvar</button>
+</footer>
+</div>
+</div>
+<div id="errorBox" style="display:none" class="error-box" role="alert"></div>
+<script>
+(function(){
+const DOW=['Dom','Seg','Ter','Qua','Qui','Sex','Sáb'];
+const daysGrid=document.getElementById('daysGrid');
+const dowLabels=document.getElementById('dowLabels');
+const monthTitle=document.getElementById('monthTitle');
+const panelTitle=document.getElementById('panelTitle');
+const panelDate=document.getElementById('panelDate');
+const appointmentsList=document.getElementById('appointmentsList');
+const modalBack=document.getElementById('modalBack');
+const fldDate=document.getElementById('fldDate');
+const fldTime=document.getElementById('fldTime');
+const fldName=document.getElementById('fldName');
+const fldService=document.getElementById('fldService');
+const fldPrice=document.getElementById('fldPrice');
+const fldObs=document.getElementById('fldObs');
+const saveBtn=document.getElementById('saveBtn');
+const cancelBtn=document.getElementById('cancelBtn');
+const addBtn=document.getElementById('addBtn');
+const prev=document.getElementById('prev');
+const next=document.getElementById('next');
+const todayBtn=document.getElementById('todayBtn');
+const attendedBtn=document.getElementById('attendedBtn');
+const deleteBtn=document.getElementById('deleteBtn');
+let viewDate=new Date(); viewDate.setDate(1);
+let selectedDate=null;
+let appointments=JSON.parse(localStorage.getItem('manicure_agenda_v1')||'[]');
+let editingId=null;
+DOW.forEach(d=>{const el=document.createElement('div');el.className='dow';el.textContent=d;dowLabels.appendChild(el);});
+function toISO(d){if(!(d instanceof Date)) d=new Date(d); return new Date(d.getTime()-d.getTimezoneOffset()*60000).toISOString().slice(0,10);}
+function renderCalendar(){
+monthTitle.textContent=viewDate.toLocaleString('pt-BR',{month:'long',year:'numeric'});
+daysGrid.innerHTML='';
+const year=viewDate.getFullYear(),month=viewDate.getMonth();
+const firstDay=new Date(year,month,1); const startDow=firstDay.getDay();
+const daysInMonth=new Date(year,month+1,0).getDate();
+const totalCells=Math.ceil((startDow+daysInMonth)/7)*7;
+for(let i=0;i<totalCells;i++){
+const cell=document.createElement('div'); cell.className='day';
+const dayIndex=i-startDow+1; let cellDate=new Date(year,month,Math.min(Math.max(dayIndex,1),daysInMonth));
+if(dayIndex<1||dayIndex>daysInMonth) cell.classList.add('other');
+const iso=toISO(cellDate); cell.dataset.date=iso;
+const numEl=document.createElement('div'); numEl.className='num'; numEl.textContent=cellDate.getDate(); cell.appendChild(numEl);
+const list=appointments.filter(a=>a.date===iso).sort((a,b)=>a.time.localeCompare(b.time));
+if(list.length>0){const badges=document.createElement('div'); badges.className='badges'; list.slice(0,2).forEach(it=>{const b=document.createElement('span');b.className='badge';if(it.attended)b.classList.add('attended');b.textContent=it.time+' '+(it.name||'—')+(it.price?' R$'+it.price:''); badges.appendChild(b);}); cell.appendChild(badges);}
+if(iso===toISO(new Date())) cell.classList.add('today');
+cell.addEventListener('click',()=>onClickDay(iso));
+daysGrid.appendChild(cell);}}
+function onClickDay(iso){selectedDate=iso; panelTitle.textContent='Agendamentos — '+iso; renderAppointments();}
+function renderAppointments(){appointmentsList.innerHTML=''; if(!selectedDate){appointmentsList.appendChild(createEmpty('Clique num dia para ver ou adicionar agendamentos')); return;} const list=appointments.filter(a=>a.date===selectedDate).sort((a,b)=>a.time.localeCompare(b.time)); panelDate.textContent=selectedDate; if(list.length===0){appointmentsList.appendChild(createEmpty('Sem agendamentos neste dia')); return;} list.forEach(item=>{const el=document.createElement('div'); el.className='slot'; const left=document.createElement('div'); const strong=document.createElement('strong'); strong.textContent=item.time+' — '+item.name+(item.price?' R$'+item.price:''); if(item.attended) strong.classList.add('badge','attended'); left.appendChild(strong); const muted=document.createElement('div'); muted.className='muted'; muted.textContent=item.service+(item.obs?' · '+item.obs:''); left.appendChild(muted); const actions=document.createElement('div'); actions.className='actions'; const editBtn=document.createElement('button'); editBtn.textContent='Editar'; editBtn.addEventListener('click',()=>openModal(item.id)); const delBtn=document.createElement('button'); delBtn.textContent='Apagar'; delBtn.className='delete'; delBtn.addEventListener('click',()=>deleteAppointment(item.id)); actions.appendChild(editBtn); actions.appendChild(delBtn); el.appendChild(left); el.appendChild(actions); appointmentsList.appendChild(el);});}
+function createEmpty(txt){const e=document.createElement('div'); e.className='empty'; e.textContent=txt; return e;}
+function openModal(id=null){modalBack.style.display='flex'; editingId=id; if(id){ const it=appointments.find(a=>a.id===id); if(!it){ alert('Agendamento não encontrado'); closeModal(); return;} fldDate.value=it.date; fldTime.value=it.time; fldName.value=it.name; fldService.value=it.service; fldPrice.value=it.price||''; fldObs.value=it.obs||''; document.getElementById('modalTitle').textContent='Editar agendamento'; deleteBtn.style.display='inline-block';} else { fldDate.value=selectedDate||toISO(new Date()); fldTime.value='09:00'; fldName.value=''; fldService.value='Unhas simples'; fldPrice.value=''; fldObs.value=''; document.getElementById('modalTitle').textContent='Novo agendamento'; deleteBtn.style.display='none';}}
+function closeModal(){modalBack.style.display='none'; editingId=null;}
+function saveAppointment(){const date=fldDate.value, time=fldTime.value, name=fldName.value.trim(), service=fldService.value, price=fldPrice.value, obs=fldObs.value.trim(); if(!date||!time||!name){alert('Preencha data, hora e nome da cliente.'); return;} if(editingId){ const idx=appointments.findIndex(a=>a.id===editingId); if(idx>=0) appointments[idx]={...appointments[idx], date, time, name, service, price, obs};} else { const id=Date.now().toString(36)+Math.random().toString(36).slice(2,6); appointments.push({id,date,time,name,service,price,obs,attended:false}); } saveStorage(); closeModal(); renderCalendar(); renderAppointments();}
+function markAttended(){if(!editingId){alert('Selecione um agendamento para marcar como atendido'); return;} const idx=appointments.findIndex(a=>a.id===editingId); if(idx>=0){ appointments[idx].attended=true; saveStorage(); renderCalendar(); renderAppointments(); closeModal(); }}
+function deleteAppointment(id=null){if(!id) id=editingId; if(!id) return; if(!confirm('Tem certeza que deseja apagar este agendamento?')) return; appointments=appointments.filter(a=>a.id!==id); saveStorage(); closeModal(); renderCalendar(); renderAppointments();}
+function saveStorage(){try{localStorage.setItem('manicure_agenda_v1',JSON.stringify(appointments));}catch(e){showError('Erro ao salvar no localStorage');}}
+function showError(txt){const eb=document.getElementById('errorBox'); eb.textContent=txt; eb.style.display='block'; setTimeout(()=>eb.style.display='none',4000);}
+saveBtn.addEventListener('click',saveAppointment);
+cancelBtn.addEventListener('click',closeModal);
+addBtn.addEventListener('click',()=>openModal());
+attendedBtn.addEventListener('click',markAttended);
+deleteBtn.addEventListener('click',()=>deleteAppointment());
+prev.addEventListener('click',()=>{viewDate.setMonth(viewDate.getMonth()-1); renderCalendar();});
+next.addEventListener('click',()=>{viewDate.setMonth(viewDate.getMonth()+1); renderCalendar();});
+todayBtn.addEventListener('click',()=>{viewDate=new Date(); viewDate.setDate(1); renderCalendar(); onClickDay(toISO(new Date()));});
+renderCalendar(); onClickDay(toISO(new Date()));
+})();
+</script>
+</body>
+</html>
